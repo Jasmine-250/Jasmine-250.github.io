@@ -1,307 +1,170 @@
-<!doctype html>
-<!-- Bootstrap 5.3 template designed for Web and Time-Based Design Subject [DESN1021]- 2023 -->
-<!-- Date: 13 October 2023  -->
-<!-- Author: Web and Time Based Subject -->
 
+      <!DOCTYPE html>
 <html lang="en" class="h-100">
 <head>
-  <!-- SWITCH - Start: https://www.cssscript.com/dark-mode-switcher-bootstrap-5/ -->
-<div class="form-check form-switch ms-auto mt-3 me-3">
-  <label class="form-check-label ms-3" for="lightSwitch">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="25"
-      height="25"
-      fill="currentColor"
-      class="bi bi-brightness-high"
-      viewBox="0 0 16 16"
-    >
-      <path
-        d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
-      />
-    </svg>
-  </label>
-  <input class="form-check-input" type="checkbox" id="lightSwitch">
-</div>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jasmine Szymanowicz Resume Website">
+  <meta name="author" content="Jasmine Szymanowicz">
+  <title>Jasmine Szymanowicz | About Me</title>
 
-<!-- SWITCH - End -->
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io (1)/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io (1)/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io (1)/favicon-16x16.png">
+  <link rel="icon" sizes="192x192" href="favicon_io (1)/android-chrome-192x192.png">
+  <link rel="icon" sizes="512x512" href="favicon_io (1)/android-chrome-512x512.png">
+  <link rel="manifest" href="favicon_io (1)/site.webmanifest">
 
-<!-- BOOTSTRAP META TAGS - Start -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- BOOTSTRAP META TAGS - End -->
+  <!-- Bootstrap & Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-<!-- META TAGS - Start -->
-<meta name="description" content="Jasmine  Szymanowicz Resume Website">
-<meta name="author" content="Jasmine  Szymanowicz">
-<!-- META TAGS - End -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/custom.css">
 
-<!-- BOOTSTRAP 5 ICONS - Start -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-<!-- BOOTSTRAP 5 ICONS - End -->
-
-<!-- FAVICON - Start - Adapted from: https://favicon.io/ -->
-<link rel="apple-touch-icon" sizes="180x180" href="favicon_io (1)/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon_io (1)/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon_io (1)/favicon-16x16.png">
-<link rel="manifest" href="favicon_io (1)/site.webmanifest">
-<!-- FAVICON - End -->
-
-<!-- BOOTSTRAP 5 - Centre Navigation Logo - Start: https://www.codehim.com/bootstrap/bootstrap-5-navbar-with-center-logo/ -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-<link rel="stylesheet" href="https://codepen.io/badiali/pen/Vwxmzrg.css">
-<!-- BOOTSTRAP 5 - Centre Navigation Logo - End -->
-
-<!-- BOOTSTRAP 5 CORE CSS - Start - Adapted from: https://getbootstrap.com/docs/5.3/getting-started/download/ -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-<!-- BOOTSTRAP 5 CORE CSS - End -->
-
-<!-- Your custom styles for this template - must be after Bootstrap's link element to over ride it (load after) as needed -->
-
-<!-- CUSTOM STYLES - Start -->
-<link href="css/custom.css" rel="stylesheet">
-<!-- CUSTOM STYLES - End -->
-
-<title>Jasmine Szymanowicz| About me </title>
-
+  <!-- Typewriter Style -->
+  <style>
+    .typewrite > .wrap {
+      border-right: 0.08em solid #ff8000;
+    }
+  </style>
 </head>
 
-<!-- COVER PAGE - Start - Adapted from: https://getbootstrap.com/docs/5.2/examples/cover/ -->
-<body class="d-flex flex-column min-vh-100">
+<body class="bg-dark d-flex flex-column min-vh-100 text-light">
 
-  <!-- HEADER - BOOTSTRAP 5 Navbar with Centre Logo - Start: https://www.codehim.com/bootstrap/bootstrap-5-navbar-with-center-logo/ -->
-<header data-headroom class="header fixed-top">
-  <nav class="navbar navbar-expand-lg text-uppercase py-0">
-    <a class="navbar-brand d-lg-none py-0 ms-4 me-0" href="#">
-  
-    <div class="offcanvas offcanvas-end vh-100" tabindex="-1" id="navbarOffcanvasLg">
-      <div class="container-lg">
-        <div class="row flex-grow-1 p-4 p-lg-0">
-          <div class="d-flex d-lg-block col-lg-4 order-1 order-lg-2 text-lg-center">
-            <button type="button" class="d-lg-none border-0 bg-transparent p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Cerrar">
-              <i class="fa-solid fa-close"></i>
-            </button>
-            <a class="navbar-brand d-none d-lg-block py-0 me-0" href="index.html">
-              Jasmine <span class="fw-bold"> Szymanowicz</span>
-            </a>
-          </div>
-          <div class="col-lg-4 order-2 order-lg-1 ms-auto ms-lg-0">
-            <ul class="navbar-nav d-flex flex-column flex-lg-row">
-              <li class="nav-item me-4 me-xxl-5">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 order-3">
-            <ul class="navbar-nav d-flex flex-column flex-lg-row justify-content-lg-end">
-              <li class="nav-item me-4 me-xxl-5">
-                <a class="nav-link" href="resume.html">Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+  <!-- HEADER -->
+  <header data-headroom class="header fixed-top">
+    <nav class="navbar navbar-expand-lg text-uppercase py-0">
+      <a class="navbar-brand d-lg-none py-0 ms-4 me-0" href="index.html">
+        <span class="fw-bold">
+          <img src="img/IMG_1638.jpeg" class="img-fluid rounded" alt="Picture of Jasmine smiling">
+        </span>
+      </a>
+      <div class="offcanvas offcanvas-end vh-100" tabindex="-1" id="navbarOffcanvasLg">
+        <div class="container-lg">
+          <div class="row flex-grow-1 p-4 p-lg-0">
+            <div class="d-flex d-lg-block col-lg-4 order-1 order-lg-2 text-lg-center">
+              <button type="button" class="d-lg-none border-0 bg-transparent p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fa-solid fa-close"></i>
+              </button>
+              <a class="navbar-brand d-none d-lg-block py-0 me-0" href="index.html">
+                Jasmine <span class="fw-bold">Szymanowicz</span>
+              </a>
+            </div>
+            <div class="col-lg-4 order-2 order-lg-1 ms-auto ms-lg-0">
+              <ul class="navbar-nav d-flex flex-column flex-lg-row">
+                <li class="nav-item me-4 me-xxl-5">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 order-3">
+              <ul class="navbar-nav d-flex flex-column flex-lg-row justify-content-lg-end">
+                <li class="nav-item me-4 me-xxl-5">
+                  <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+    </nav>
+    <button class="navbar-toggler d-lg-none fs-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container text-center pt-5 mt-5">
+    <h1>Who Am I?</h1>
+    <h1>
+      <a href="#" class="typewrite" data-period="2000" data-type='[ "Photographer?", "Journalist?", "Publicist?" ]'>
+        <span class="wrap"></span>
+      </a>
+    </h1>
+
+    <p class="mt-4">
+      Hi, I'm Jasmine S! I am a creative individual currently studying a Diploma in Creative Industries and
+      Communications at Western Sydney University. The subjects in this diploma include:
+      <span class="standout">Introduction to University Life,</span>
+      <span class="standout">Creative Enterprise and IT,</span>
+      <span class="standout">Visual Media Design,</span>
+      <span class="standout">Website Design,</span>
+      <span class="standout">Exploring Creative Industries,</span>
+      <span class="standout">Data Dynamics: Influence, Ethics, and Power,</span>
+      <span class="standout">Employability and Graduate Success,</span>
+      <span class="standout">Transition Success.</span>
+    </p>
+
+    <p class="lead pt-5">
+      <a href="about.html" class="btn btn-lg btn-secondary fw-bold">Find out more!</a>
+    </p>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="container mt-auto py-3 my-4">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <span class="text-muted">© 2025 Jasmine Szymanowicz</span>
     </div>
-  </nav>
-  <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
-    <i class="fa-solid fa-bars"></i>
-  </button>
-</header>
-<!-- HEADER - BOOTSTRAP 5 Navbar with Centre Logo - End -->
+  </footer>
 
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Typewriter effect
+    class TxtType {
+      constructor(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+      }
 
+      tick() {
+        const i = this.loopNum % this.toRotate.length;
+        const fullTxt = this.toRotate[i];
 
-<div class="container d-flex h-100 text-center ">
-<main class="px-3">
-  <div class="row">
-<div class="col">
+        this.txt = this.isDeleting
+          ? fullTxt.substring(0, this.txt.length - 1)
+          : fullTxt.substring(0, this.txt.length + 1);
 
-<!-- TYPEWRITER EFFECT - Start: https://bootsnipp.com/snippets/XRNAv -->
+        this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
+        let delta = 200 - Math.random() * 100;
+        if (this.isDeleting) delta /= 2;
 
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-<h1>Who Am I ? </h1>
+        if (!this.isDeleting && this.txt === fullTxt) {
+          delta = this.period;
+          this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+          this.isDeleting = false;
+          this.loopNum++;
+          delta = 500;
+        }
 
-<h1>
-  <a href="" class="typewrite" data-period="2000" data-type='[ "Photographer?", "Journalist ?", "Publicist ?" ]'>
-    <span class="wrap"></span>
-  </a>
-</h1>
-    <span class="wrap"></span>
-  </a>
-</h1>
+        setTimeout(() => this.tick(), delta);
+      }
+    }
 
-<!-- TYPEWRITER EFFECT - End -->
-
-<p>Hi I am Jasmine S ! I am a creative person currently studying a Diploma in creative industries and Communications at western sydney University. the subject in this Diploma are. <span class="standout">Introduction to University life,</span> <span class="standout"> Creative Enterprise and IT, </span> <span class="standout">Visual media design,</span> <span class="standout">Website design, </span> <span class="standout"> Exploring Creative industries,</span> <span class="standout">Data Dynamics:Influence,Ethics and Power,</span> <span class="standout">Employability and Graduate Success,</span> <span class="standout"> Tansition Success,</span>
-
-
-<p class="lead pt-5"><a href="about.html" class="btn btn-lg btn-secondary fw-bold">Find out more! </a></p>
-
-</div>
-</div>
-</main>
-</div>
-
-    <!-- FOOTER - Start: https://getbootstrap.com/docs/5.3/examples/footers/ -->
-    
-    <div class="container mt-auto">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
-        <p class="col-md-4 mb-0">&copy; 2025 Jasmine Szymanowicz</p>
-    
-        <ul class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none list-unstyled">
-          <li class="ms-3"> <a class="footsocial" href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram fs-3"></i></a></li>
-          <li class="ms-3"><a class="footsocial" href="mailto:margesimpson@gmail.com" target="_blank"><i class="bi bi-envelope fs-3"></i></a></li>
-            <li class="ms-3"><a class="footsocial" href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin fs-3"></i></a></li>
-        </ul>
-    
-        <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link px-2">About</a></li>
-          <li class="nav-item"><a href="resume.html" class="nav-link px-2">Resume</a></li>
-          <li class="nav-item"><a href="portfolio.html" class="nav-link px-2">Portfolio</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link px-2">Contact</a></li>
-        </ul>
-      </footer>
-  </div>
-    <!-- FOOTER - End -->
-
-<!-- COVER PAGE - End -->
-
-<!-- =================No Content below here========================= -->
-<!-- Bootstrap JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-
-<!--  BOOTSTRAP BUNDLE WITH POPPER - Start -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<!--  BOOTSTRAP BUNDLE WITH POPPER - End -->
-
-<!-- BOOTSNIPP CURSOR TYEPWRITTER JS - Start -->
-<script>
-  //made by vipul mirajkar thevipulm.appspot.com
-  var TxtType = function(el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
-  this.txt = '';
-  this.tick();
-  this.isDeleting = false;
-  };
-  
-  TxtType.prototype.tick = function() {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
-  
-  if (this.isDeleting) {
-  this.txt = fullTxt.substring(0, this.txt.length - 1);
-  } else {
-  this.txt = fullTxt.substring(0, this.txt.length + 1);
-  }
-  
-  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-  var that = this;
-  var delta = 200 - Math.random() * 100;
-  
-  if (this.isDeleting) { delta /= 2; }
-  
-  if (!this.isDeleting && this.txt === fullTxt) {
-  delta = this.period;
-  this.isDeleting = true;
-  } else if (this.isDeleting && this.txt === '') {
-  this.isDeleting = false;
-  this.loopNum++;
-  delta = 500;
-  }
-  
-  setTimeout(function() {
-  that.tick();
-  }, delta);
-  };
-  
-  window.onload = function() {
-  var elements = document.getElementsByClassName('typewrite');
-  for (var i=0; i<elements.length; i++) {
-  var toRotate = elements[i].getAttribute('data-type');
-  var period = elements[i].getAttribute('data-period');
-  if (toRotate) {
-  new TxtType(elements[i], JSON.parse(toRotate), period);
-  }
-  }
-  // INJECT CSS
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-  document.body.appendChild(css);
-  };
-  
+    window.onload = function () {
+      const elements = document.getElementsByClassName('typewrite');
+      for (let i = 0; i < elements.length; i++) {
+        const toRotate = elements[i].getAttribute('data-type');
+        const period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+          new TxtType(elements[i], JSON.parse(toRotate), period);
+        }
+      }
+    };
   </script>
-  
-
-<!-- BOOTSNIPP CURSOR TYPEWRITTER JS - End -->
-
-<!-- ANIMATED PARTICLES JS - Start: https://www.cssscript.com/best-particles-animation/-->
-<script>
-
-  // Some random colors
-  const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
-  
-  const numBalls = 50;
-  const balls = [];
-  
-  for (let i = 0; i < numBalls; i++) {
-  let ball = document.createElement("div");
-  ball.classList.add("ball");
-  ball.style.background = colors[Math.floor(Math.random() * colors.length)];
-  ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
-  ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
-  ball.style.transform = `scale(${Math.random()})`;
-  ball.style.width = `${Math.random()}em`;
-  ball.style.height = ball.style.width;
-  
-  balls.push(ball);
-  document.body.append(ball);
-  }
-  
-  // Keyframes
-  balls.forEach((el, i, ra) => {
-  let to = {
-  x: Math.random() * (i % 2 === 0 ? -11 : 11),
-  y: Math.random() * 12
-  };
-  
-  let anim = el.animate(
-  [
-  { transform: "translate(0, 0)" },
-  { transform: `translate(${to.x}rem, ${to.y}rem)` }
-  ],
-  {
-  duration: (Math.random() + 1) * 2000, // random duration
-  direction: "alternate",
-  fill: "both",
-  iterations: Infinity,
-  easing: "ease-in-out"
-  }
-  );
-  });
-  </script>
-  
-
-<!-- ANIMATED PARTICLES JS - End -->
-<!-- LIGHT AND DARK MODE SWITCH - Start: https://www.cssscript.com/dark-mode-switcher-bootstrap-5/ -->
-<script src="js/switch.js"></script>
-<!-- LIGHT AND DARK MODE SWITCH - End -->
-  </body>
+</body>
 </html>
-
-<!-- Bootstrap 5.3 template designed for Web and Time-Based Design Subject [DESN1021]- 2023 -->
